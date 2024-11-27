@@ -1,0 +1,155 @@
+<!-- DANISA PLS AYOKO ALISIN YUNG HEHE NAHIHIRAPAN AKO MAG BASA HAHAHHAHA IKAW NA MAG ADJUST MADALI LNAG DIN NAMAN UwU -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MVCH</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .body{
+        margin: 0;
+        background-color: #F5F6FA;
+        display: flex;
+    }
+    nav{
+        display: flex;
+        background-color: white;
+        height: 87.5vh;
+        width: 30%;
+    }
+    ul a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        margin: 1px;
+    }
+    ul li{
+        margin-left: 25px;
+        background-color: #00D89E;
+        border-radius: 5px;
+        width:100%;
+        color: white;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    ul li:hover{
+        transition: 0.3s;
+        box-shadow: 3px 3px 8px #89718f;
+    }
+    .reg-pat:hover{
+        scale: 1.1;
+        box-shadow: 3px 3px 10px black;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        /* background-color: red;   */
+        padding-left: 15px;
+    }
+    .icon{
+        display: inline-block;
+        text-align: center;
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        background-color: white;
+        padding: 8px;
+        margin-right: 15px;
+        border: solid;
+        cursor: pointer;
+    }
+    .icon:hover{
+        opacity: 80%;
+        transition: 0.3s;
+    }
+    /* label{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    } */
+    input{
+        box-shadow: 1px 1px 3px black;
+        border-radius: 15px;
+        padding: 6px;
+        border: none;
+        font-size: 20px;
+        width: 60%;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F5F6FA;
+        width: 100%;
+        margin: 30px;
+        gap: 15px;
+
+    }
+    .hehe1, .hehe2, .hehe3, .hehe5, .hehe6, .hehe7, .hehe8{
+        border-radius: 15px;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        width: 30%;
+        background-color: white;
+        box-shadow: 1px 1px 3px black;
+    }
+    .hehe4{
+        border-radius: 15px;
+        height: 30%;
+        width: 61.5%;
+        background-color: white;
+        box-shadow: 1px 1px 3px black;
+    }
+    .hehe8{
+        background-color: #752BDF;
+    }
+</style>
+<body>
+    <header>
+        <h1 style="text-align: center; font-size: 30px; font-family: Arial, Helvetica, sans-serif;">MVCH</h1>
+        <!-- <label for="text">Search</label> -->
+        <input type="text" placeholder="Search">
+        <div class="icon"><i class="fa-solid fa-id-card-clip"></i></div>
+    </header>
+    <div class="body">
+        <nav>
+            <ul>
+                <a href=""><li class="reg-pat" style="background-color: #752BDF; color: white; ">Register Patient</li></a><br><br>
+                <a href=""><li>Patient List</li></a>
+                <a href=""><li>Facilities</li></a>
+                <a href=""><li>Orders</li></a>
+                <a href=""><li>Inventory</li></a>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="hehe1">Total number of patients</div>
+            <div class="hehe2">Available Staff</div>
+            <div class="hehe3">Patient by Gender</div>
+            <div class="hehe4"></div>
+            <div class="hehe5"></div>
+            <div class="hehe6"></div>
+            <div class="hehe7"></div>
+            <div class="hehe8"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
