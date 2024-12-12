@@ -54,7 +54,7 @@ $menuItems = [
   [
     'icon' => 'Log out',
     'label' => 'Log out',
-    'href' => '/staff-and-scheduling/patients.php',
+    'href' => '/staff-and-scheduling/logout.php',
   ],
 ];
 
