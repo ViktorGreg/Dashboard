@@ -29,7 +29,7 @@ $menuItems = [
   [
     'icon' => 'cart',
     'label' => 'order',
-    'href' => '/staff-and-scheduling/patients.php',
+    'href' => '/staff-and-scheduling/orderList.php',
   ],
   [
     'icon' => 'inventory',
@@ -49,7 +49,7 @@ $menuItems = [
   [
     'icon' => 'Vendors',
     'label' => 'Vendors',
-    'href' => '/staff-and-scheduling/patients.php',
+    'href' => '/staff-and-scheduling/vendorList.php',
   ],
   [
     'icon' => 'Log out',
