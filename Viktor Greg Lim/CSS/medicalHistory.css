@@ -1,0 +1,67 @@
+/* 
+COLOR SCHEME:
+60% = #F5F6FA
+30% = #752BDF
+10% = #00D89E
+*/
+
+body{
+    background-color: #F5F6FA;
+}
+
+/* CELLS USED AS SPACES AND NOTHING MORE */
+.none{
+   border: none; 
+}
+
+/* CELL/SPACE BELOW DISCHARGE DETAILS */
+#below{
+    height: 30px;
+}
+
+/* TABLE */
+#patient-medical{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-spacing: 15px 0; 
+
+}
+
+/* COLORED TITLE ABOVE */
+#medical-history-title{
+    width: 25%;
+    background-color: #752BDF;
+    color: white;
+    border-radius: 10px 90px 0 0;
+    padding: 5px 10px 5px 10px;
+}
+
+/* DETAILS */
+#med-history-details{
+    border: 2px solid #752BDF;
+    width: 60%;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* PHYSICIAN NAME */
+#physician{
+    border: 2px solid #752BDF;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* DISCHARGE DETAILS */
+#discharge-details{
+    border: 2px solid #752BDF;
+    vertical-align: top;
+    padding: 5px 10px 5px 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
